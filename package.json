@@ -1,0 +1,50 @@
+{
+    "name": "vscode-foo-grammar",
+    "displayName": "Foo Grammar",
+    "description": "VS Code syntax highlighting for Foo",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "your-email@website.com",
+    "publisher": "no-one-yet",
+    "license": "unlicense",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "repository": {
+        "types": "git",
+        "url": ""
+    },
+    "type": "module",
+    "contributes": {
+        "languages": [
+            {
+                "id": "foo",
+                "extensions": [
+                    ".ffs"
+                ],
+                "configuration": "./dist/foo.config.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "foo",
+                "scopeName": "source.foo",
+                "path": "./dist/foo.tmLanguage.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "vscgb --name foo ./src",
+        "package": "vsce package",
+        "install": "code --install-extension ./vscode-foo-grammar-1.0.0.vsix"
+    },
+    "activationEvents": [
+        "onLanguage:foo"
+    ],
+    "devDependencies": {
+        "@types/vscode-grammar": "github:noxabellus/vscode-grammar-types",
+        "vscode-grammar-builder": "github:noxabellus/vscode-grammar-builder",
+        "typescript": "^5.3.3",
+        "vsce": "^1.81.1"
+    }
+}
