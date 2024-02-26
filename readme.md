@@ -22,4 +22,4 @@ with your language name
 + Build, package, and install
 1. `npm run build`
 2. `npm run package`
-3. `npm run install`
+3. `npm run install-extension`

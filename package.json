@@ -36,7 +36,7 @@
     "scripts": {
         "build": "vscgb --name foo ./src",
         "package": "vsce package",
-        "install": "code --install-extension ./vscode-foo-grammar-1.0.0.vsix"
+        "install-extension": "code --install-extension ./vscode-foo-grammar-1.0.0.vsix"
     },
     "activationEvents": [
         "onLanguage:foo"
