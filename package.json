@@ -36,7 +36,8 @@
     "scripts": {
         "build": "vscgb --name foo ./src",
         "package": "vsce package",
-        "install-extension": "code --install-extension ./vscode-foo-grammar-1.0.0.vsix"
+        "decomp": "vscgd",
+        "install-extension": "vscgi"
     },
     "activationEvents": [
         "onLanguage:foo"

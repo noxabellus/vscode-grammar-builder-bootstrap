@@ -19,6 +19,8 @@ with your language name
 
 + Write your grammar in TypeScript with regex literals, builder functions etc
 
++ If you have an existing json grammar, decompile it to TypeScript via `npm run decomp --out path/to/decompileInto path/to/yourGrammar.tmLanguage.json`
+
 + Build, package, and install
 1. `npm run build`
 2. `npm run package`
