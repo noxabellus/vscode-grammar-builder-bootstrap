@@ -8,7 +8,7 @@ Be sure to use the `Preserve Case` option
 
 + Find/Replace all instances of `ffs` with your language's file extension
 
-+ Replace `foo` in file/folder names (`src/foo` & `src/foo/foo.config.json`)
++ Replace `foo` in file names (src/foo.config.json`)
 with your language name
 
 + Update author / publisher / description in `package.json`
