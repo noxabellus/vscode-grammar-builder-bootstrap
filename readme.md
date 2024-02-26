@@ -11,9 +11,6 @@ Be sure to use the `Preserve Case` option
 + Replace `foo` in file/folder names (`src/foo` & `src/foo/foo.config.json`)
 with your language name
 
-+ Replace files' `ffs` extensions with your language's
-file extension (`src/testing/example.ffs`)
-
 + Update author / publisher / description in `package.json`
 
 + Replace the unlicense `LICENSE` with your preferred license and update the field in `package.json`
