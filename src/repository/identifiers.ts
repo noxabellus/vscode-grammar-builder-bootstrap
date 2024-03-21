@@ -1,5 +1,5 @@
 import { TMGrammarScope } from 'vscode-grammar';
-import { regex } from '../utility/index.js';
+import { regex } from '../utility.js';
 
 const IDENT = /[a-zA-Z][_a-zA-Z0-9]*/;
 
